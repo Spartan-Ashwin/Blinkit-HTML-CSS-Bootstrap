@@ -1,0 +1,146 @@
+:root{
+    --color-green:rgb(49, 134, 22);
+    --color-black-heading:rgb(28, 28, 28);
+    --color-black-item-name:rgb(31, 31, 31);
+    --color-gray:rgb(130, 130, 130);
+}
+
+
+.headernav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    
+    
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    height: 87px;
+    border-bottom: 1px solid rgb(238,238,238);
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+
+
+.location>.location-title{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.location>.location-add{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+
+}
+
+.searchbar{
+    display: flex;
+    height: 46px;
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    width: 40%;
+    color: rgb(130, 130, 130);
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.searchbar>.inputtext>input{
+    border: none;
+    outline: none; 
+    height: 46px;   
+    padding: 10px;
+    background-color: transparent;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.maincontainer{
+    max-width: 1100px;
+}
+
+.banner2{
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    margin: auto 10px;
+
+}
+
+
+
+
+.banner2 .banner2-img img{
+    height: 195px;
+    width: 300px;
+}
+
+.banner2::-webkit-scrollbar{
+
+    display: none;
+}
+
+
+.banner3{
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+}
+
+.banner3 img{
+    width: 100%;
+}
+
+.productlist{
+    
+    column-gap: 1.5rem;
+    overflow: scroll;
+    column-gap: 10px;
+}
+.item{
+
+    padding-bottom: 0.75rem;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border: 0.5px solid rgb(232, 232, 232);
+    box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+    border-radius: 8px;
+    width: 15%;
+ 
+
+}
+
+.itemcategory{
+    color: rgb(28, 28, 28);
+    font-size: 24px;
+    font-family: Okra-Medium;
+    font-weight: 600;
+}
+
+.timer{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+}
+
+.itemdetails{
+    padding-inline: 10px;
+}
+
+
+.itemname{
+    overflow: hidden;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
